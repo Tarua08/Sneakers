@@ -9,3 +9,6 @@
 .item{padding:12px;border:1px solid #303744;border-radius:10px;background:#11151d}
 .tag{display:inline-block;padding:2px 8px;border-radius:99px;background:#243041;color:#a8c4ff;font-size:12px}
 footer{padding:20px;text-align:center;color:#9ca3af}
+.ai-form{display:grid;gap:10px;margin-top:10px}
+.ai-form input{padding:10px;border-radius:10px;border:1px solid #303744;background:#0f141d;color:#e8ecf1}
+.output{margin-top:12px;padding:12px;border-radius:10px;background:#0f141d;border:1px solid #303744;white-space:pre-wrap;max-height:340px;overflow:auto}

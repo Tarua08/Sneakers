@@ -65,6 +65,19 @@
       <h2>Quick Starter Picks</h2>
       <div class="grid" id="shoeGrid"></div>
     </section>
+
+    <section class="card">
+      <h2>AI Sneaker Recommender (Vertex AI)</h2>
+      <p>Tell us your budget and style, and get personalized beginner recommendations.</p>
+      <form id="aiForm" class="ai-form">
+        <input id="budget" placeholder="Budget (e.g. ₹5k-₹9k)" required />
+        <input id="useCase" placeholder="Use case (daily / gym / lifestyle)" required />
+        <input id="style" placeholder="Style (chunky / minimal / sporty)" required />
+        <input id="brandPreference" placeholder="Brand preference (optional)" />
+        <button type="submit" class="btn">Get AI Recommendations</button>
+      </form>
+      <pre id="aiOutput" class="output">No recommendations yet.</pre>
+    </section>
   </main>
 
   <footer>
